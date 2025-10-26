@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>HR Solutions & Talent - Desarrolando el potencial Humando</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/about.jpg" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <style>
+    .page-header-custom {
+    background: linear-gradient(
+        90deg,
+        #1c4b6a 0%,        /* azul corporativo */
+        #2e81aa 60%,       /* azul claro */
+        rgba(224, 186, 14, 0.705) 100%  /* amarillo suave y translúcido */
+    );
+    height: 220px;
+    position: relative;
+}
+
+
+.header-logo img {
+    height: 180px;  /* LOGO GRANDE */
+    animation: fadeInUp 1.2s ease-in-out;
+}
+
+.header-text h1 {
+    font-size: 2.8rem;
+    animation: fadeInRight 1.2s ease-in-out;
+}
+
+.breadcrumb-text {
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .page-header-custom {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        padding: 2rem 1rem;
+    }
+    .header-logo img {
+        height: 100px;
+        margin-bottom: 1rem;
+    }
+}
+
+/* Animaciones suaves */
+@keyframes fadeInUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes fadeInRight {
+    from {
+        transform: translateX(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Arreglo visual para el SELECT del formulario */
+select.form-control {
+    color: #333; /* Texto oscuro */
+    background-color: #fff; /* Fondo blanco */
+    font-size: 16px;
+    padding: 0.75rem 1rem;
+    height: auto;
+    line-height: 1.5;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23666' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 12px;
+}
+    .whatsapp-float {
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        background-color: #25d366;
+        color: white;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 28px;
+        z-index: 999;
+        width: 60px;
+        height: 60px;
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.3s ease;
+    }
+
+    .whatsapp-float:hover {
+        transform: scale(1.1);
+        background-color: #20b858;
+    }
+
+    .whatsapp-icon {
+        font-size: 28px;
+    }
+</style>
+
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <div class="container-fluid nav-bar p-0">
+        <div class="container-lg p-0">
+            <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
+                <a href="index.html" class="navbar-brand">
+
+
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="index.html" class="nav-item nav-link">Inicio</a>
+                        <a href="about.html" class="nav-item nav-link">Nosotros</a>
+                        <a href="service.html" class="nav-item nav-link">Servicios</a>
+                        <a href="pricing.html" class="nav-item nav-link">Clientes</a>
+                        <a href="contact.html" class="nav-item nav-link active">Contacto</a>
+                        <a href="blog.html" class="nav-item nav-link">Busquedas</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+<!-- Page Header Start -->
+<div class="container-fluid page-header-custom d-flex align-items-center justify-content-between px-5">
+    <!-- Logo grande -->
+    <div class="header-logo">
+        <img src="img/hr_s_logo-transparente.png" alt="HR Solutions & Talent" class="img-fluid">
+    </div>
+
+    <!-- Texto Nosotros -->
+    <div class="header-text text-left">
+        <h1 class="text-white font-weight-bold mb-1">Contáctanos</h1>
+        <p class="breadcrumb-text text-white-50 mb-0">
+        </p>
+    </div>
+</div>
+<!-- Page Header End -->
+
+<!-- Contact Start -->
+<div class="container-fluid py-5" id="contacto">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-down">
+      <small class="bg-warning text-dark text-uppercase font-weight-bold text-center px-2 py-1 rounded">
+        Consultoría Estratégica
+      </small>
+      <h1 class="mt-3 font-weight-bold">Solicitá una Propuesta de Recursos Humanos</h1>
+      <p class="text-muted">Completá el formulario y diseñaremos una solución a medida para tu organización.</p>
+    </div>
+    
+    <div class="row align-items-center">
+      <!-- Imagen ilustrativa -->
+      <div class="col-lg-5 mb-4 mb-lg-0 text-center" data-aos="fade-right" data-aos-delay="100">
+        <img src="img/hombre-usando-movil.jpg" alt="Atención al Cliente" class="img-fluid rounded shadow" style="max-height: 400px;">
+        <p class="text-muted mt-3">Nuestro equipo está listo para ayudarte.</p>
+      </div>
+
+      <!-- Formulario -->
+      <div class="col-lg-7" data-aos="fade-left" data-aos-delay="200">
+        <form action="https://formspree.io/f/xnnoqqkb" method="POST" id="proposalForm">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <input type="text" name="empresa" class="form-control p-3" placeholder="Nombre de la Empresa" required>
+            </div>
+            <div class="form-group col-md-6">
+              <input type="text" name="contacto" class="form-control p-3" placeholder="Nombre y Apellido del Contacto" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <input type="email" name="email" class="form-control p-3" placeholder="Correo Electrónico" required>
+            </div>
+            <div class="form-group col-md-6">
+              <input type="tel" name="telefono" class="form-control p-3" placeholder="Teléfono de Contacto" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <select name="servicio" class="form-control p-3" required>
+              <option value="" disabled selected>Seleccioná el servicio que necesitás</option>
+              <option value="seleccion">Selección & Headhunting</option>
+              <option value="desarrollo">Desarrollo de Talento</option>
+              <option value="consultoria">Consultoría Organizacional</option>
+              <option value="externalizacion">Externalización de RRHH</option>
+              <option value="otros">Otro (especificar en el mensaje)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <input type="number" name="tamanio_equipo" class="form-control p-3" placeholder="Cantidad de personas en tu equipo">
+          </div>
+          <div class="form-group">
+            <textarea name="objetivos" rows="3" class="form-control p-3" placeholder="¿Cuáles son los objetivos que te gustaría alcanzar con este servicio?" required></textarea>
+          </div>
+          <div class="form-group">
+            <textarea name="mensaje" rows="3" class="form-control p-3" placeholder="Mensaje adicional..."></textarea>
+          </div>
+          <div class="text-center mt-4">
+            <button type="submit" class="btn btn-primary btn-lg px-5 py-2 font-weight-bold animate__animated animate__fadeInUp">
+              Enviar Propuesta
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Contact End -->
+
+
+
+<!--  Footer Start -->
+<footer class="bg-dark text-white pt-5 pb-3">
+    <div class="container">
+        <div class="row align-items-start">
+            <!-- Logo e info breve -->
+            <div class="col-md-4 mb-4 text-center text-md-left">
+                <img src="img/hr_s_logo-transparente.png" alt="HR Solutions & Talent" style="max-width: 180px;" class="mb-3">
+                <p class="small">
+                    Especialistas en conectar talento con empresas, brindando soluciones estratégicas de RRHH en Argentina y el mundo.
+                </p>
+                <div class="d-flex justify-content-center justify-content-md-start mt-3">
+                    <a class="btn btn-outline-light btn-sm rounded-circle mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-sm rounded-circle mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-light btn-sm rounded-circle mr-2" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Navegación rápida -->
+            <div class="col-md-4 mb-4">
+                <h5 class="text-primary mb-3">Navegación</h5>
+<ul class="list-unstyled">
+    <li><a href="index.html" class="text-white-50">Inicio</a></li>
+    <li><a href="about.html" class="text-white-50">Quiénes Somos</a></li>
+    <li><a href="service.html" class="text-white-50">Servicios</a></li>
+    <li><a href="contact.html" class="text-white-50">Contacto</a></li>
+</ul>
+
+            </div>
+
+            <!-- Contacto -->
+            <div class="col-md-4 mb-4">
+                <h5 class="text-primary mb-3">Contacto</h5>
+                <p class="small mb-1"><i class="fa fa-map-marker-alt mr-2"></i>Buenos Aires, Argentina</p>
+                <p class="small mb-1"><i class="fa fa-phone-alt mr-2"></i>+54 9 11 3454-9963</p>
+                <p class="small"><i class="fa fa-envelope mr-2"></i>info@hrsolutions.com.ar</p>
+            </div>
+        </div>
+
+        <!-- Línea inferior -->
+        <div class="border-top border-secondary pt-3 text-center">
+            <p class="mb-0 small">&copy; 2025 HR Solutions & Talent. Todos los derechos reservados.</p>
+        </div>
+    </div>
+</footer>
+<!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+    <!-- WhatsApp Floating Button -->
+<a href="https://wa.me/5491123456789" 
+   class="whatsapp-float" 
+   target="_blank" 
+   aria-label="Chat en WhatsApp">
+    <i class="fab fa-whatsapp whatsapp-icon"></i>
+</a>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+
+</body>
+
+</html>
